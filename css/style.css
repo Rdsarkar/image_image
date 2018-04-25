@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header start*/
+
+header{
+    background-color: #323A45;
+/*    min-height: 80px;*/
+    
+}
+.wrapper{
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+  width: 20%; 
+  float: left;
+    margin-top: 20px;
+}
+.nav{
+  width: 60%;
+    float: right;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.nav ul li a{
+   text-decoration: none;
+    padding: 20px ;
+    display: block;
+    margin-top: 15px;
+    color:white;
+    text-transform: uppercase;
+    transition: .5s;
+    
+    
+}
+.nav ul li a:hover{
+   background-color: #2A80B9; 
+   border-radius: 0px 3px; 
+}
+/*
+.nav ul li a:last-child{
+    padding-right: 0;
+}
+*/
+/*header end*/
+/*banner start*/
+section{
+    
+}
+.banner{
+    min-height: 300px;
+    background-image: url(../image/blue.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_content{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.text1{
+    font-size: 60px;
+    
+        padding-top: 60px;
+}
+.text2{
+    font-size: 40px;
+        padding-top: 20px;
+}
+.button{
+    
+    border: none;
+    margin-top: 30px;
+}
+.button button{
+    background-color:transparent;
+    font-size: 12px;
+    padding: 10px 20px;
+    color:white;
+}
+/*banner end*/
+/*slider start*/
+.slider_text{
+    
+         min-height: 150px;
+        
+background-color: #E9E6E1;
+}
+.slider_text1{
+    width: 60%;
+    color: gray;
+    font-size: 25px;
+    min-height:80px;
+    margin: 0 auto;
+}
+.slider_text1 p{
+   padding-top: 40px;
+    text-align: center;
+}
+.slider_t_1{
+    color:white;
+    background-color:#2A80B9; 
+}
+.slider_t_2 {
+    color:#2A80B9;
+}
+.slider_t_3{
+    color:black;
+}
+
+
+/*slider end*/
+/*sevice start*/
+.service_top{
+   overflow: hidden;
+}
+.services{
+    min-height: 300px;
+    overflow: hidden;
+}
+.single_service{
+    width: 21%;
+    min-height: 250px;
+    background-color: #E4E1DF;
+    text-align: center;
+    margin: 28px;
+    float: left;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.single_service:first-child{
+    margin-left: 0;
+}
+
+.single_service:last-child{
+    margin-right: 0;
+}
+.single_logo{
+    
+    width: 15%;
+    margin: 0 auto;
+}
+.single_logo img{
+    width: 100%;
+}
+.single_header{
+/*    font-size: 30px;*/
+}
+.single_header h1{
+    text-transform: uppercase;
+}
+.single_header h3{
+    color:#2A80B9;
+    font-size: 20px;
+}
+.service_bottom{
+    padding-top: 20px;
+    min-height: 300px;
+}
+.services2{
+    
+}
+.service_work{
+    width: 30%;
+    float: left;
+}
+.content_one{
+    font-size: 30px;
+}
+.content_two{
+    font-size: 17px;
+    padding-top: 10px;
+}
+.content_three{
+    padding-top: 8px;
+}
+.service_work button{
+    background-color:#2A80B9;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.single_work{
+    width: 22%;
+    min-height: 250px;
+    text-align: center;
+    margin: 0 2px;
+    float: right;
+    overflow: hidden;
+    color:white;
+    border-radius: 5px;
+}
+.work1{
+    
+}
+.work1 img{
+    width: 100%;
+}
+.work2{
+    color:white;
+    background-color:#34495E; 
+    text-align: center;
+    padding-top: 20px;
+}
+.work2_title{
+    font-size: 15px;
+}
+.work_content{
+    padding-top: 7px;
+    line-height: 1.4;
+    
+}
+/*sevice end*/
+/*get in touch start*/
+.touch{
+    background-color: #2A80B9;
+    min-height: 350px;
+}
+.touch_text{
+    margin: 0 auto;
+    padding: 50px;
+    width: 60%;
+    line-height: 2;
+    color: white;
+    text-align: center;
+}
+.touch_text h2{
+    text-transform: uppercase;
+}
+.touch_text p{
+    font-size: 18px;
+}
+.logos{
+    margin: 0 auto;
+    width: 40%;
+}
+.touch_logo{
+    
+    width: 25%;
+    float: left;
+}
+.touch_logo img{
+    width: 80%;
+height: 100px;
+}
+/*get in touch end*/
+/*footer start*/
+.footer{
+    background-color:#34495E;
+    min-height: 100px;
+    
+}
+.footer_text{
+    text-align: center;
+    padding-top: 40px;
+    color:white;
+}
+/*footer end*/
